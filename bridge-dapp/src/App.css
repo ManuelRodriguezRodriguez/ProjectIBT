@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #121212, #2c2c2c); /* Fondo negro a gris oscuro */
+  color: #fff;
+  text-align: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.7); /* Fondo del contenedor principal más oscuro */
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/* Contenedor flotante para el monto y el botón */
+.bridge-container {
+  background: rgba(255, 255, 255, 0.9); /* Fondo blanco ligeramente oscuro */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Etiqueta para el monto */
+.bridge-label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333; /* Texto gris oscuro */
+}
+
+/* Input y select alineados verticalmente */
+.bridge-input,
+.bridge-select {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #f9f9f9; /* Fondo blanco claro */
+  color: #333; /* Texto gris oscuro */
+  transition: box-shadow 0.2s;
+}
+
+/* Efecto al enfocar en input y select */
+.bridge-input:focus,
+.bridge-select:focus {
+  outline: none;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.connect-button,
+.bridge-button {
+  background: linear-gradient(90deg, #ff6f61, #ff914d); /* Degradado naranja */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.connect-button:hover,
+.bridge-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.35);
+}
+
+.connect-button:active,
+.bridge-button:active {
+  transform: translateY(0);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #aaaaaa, #ffffff); /* Texto en degradado de gris claro a blanco */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Texto de Cuenta */
+.eth-account {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #dcdcdc; /* Gris claro */
+}
+
