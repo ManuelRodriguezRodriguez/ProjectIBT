@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@metamask/sdk": "^0.31.5",
+    "@mysten/sui.js": "^0.54.1",
     "@mysten/wallet-kit": "^0.8.6",
     "cra-template": "1.2.0",
     "ether": "^0.0.9",
